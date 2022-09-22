@@ -10,7 +10,7 @@ This backend has been built using express and connects to our MongoDB/Atlas data
 
 ## Install Dependencies
 
-By default, 'npm install' will install all modules listed as dependencies in package.json. In this case this will install: 
+By default, 'npm install' will install all modules in the package.json file. In this case this will install: 
 
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
@@ -18,11 +18,9 @@ By default, 'npm install' will install all modules listed as dependencies in pac
     "express": "^4.18.1",
     "mongodb": "^4.9.1",
     "nodemon": "^2.0.19",
-    "uuid": "^9.0.0"
-
-If you would like to run the tests contained in the test folder you will also need to install the following as devDependencies (npm install -D "jest" for example):
-
-"jest": "^27.5.1", "supertest": "^6.2.4".
+    "uuid": "^9.0.0",
+    "jest": "^27.5.1", 
+    "supertest": "^6.2.4".
 
 ## .env
 
